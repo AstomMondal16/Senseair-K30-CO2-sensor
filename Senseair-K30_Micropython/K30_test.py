@@ -11,7 +11,7 @@ def main():
             print("CO2 Value:", co2_value)
         else:
             print("Checksum failed / Communication failure")
-        time.sleep(2)
+        time.sleep(2)    # wait for next reading comes
 
 if __name__ == "__main__":
     main()
