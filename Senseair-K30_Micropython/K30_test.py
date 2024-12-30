@@ -2,7 +2,7 @@ from k30 import K30CO2Sensor
 import time
 
 def main():
-    print("Application Note AN-102: Interface Pico W to K-30")
+    # Initialize the K30 driver 
     sensor = K30CO2Sensor(scl_pin=1, sda_pin=0)  # Adjust pins as needed
 
     while True:
