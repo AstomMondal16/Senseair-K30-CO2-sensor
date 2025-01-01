@@ -1,3 +1,4 @@
+# K30 CO2 Sensor Driver for Raspberry Pi
 
 This repository provides a Python driver for interfacing with the K30 CO2 sensor using the Raspberry Pi. It uses the I2C protocol for communication to read CO2 concentration values.
 
@@ -44,10 +45,12 @@ Run the Raspberry Pi configuration tool:
 
 ```bash
 sudo raspi-config
-
-
+```
 Navigate to:
 
-Interfacing Options → I2C → Enable
-Reboot your Raspberry Pi to apply the changes.
+- Interfacing Options → I2C → Enable
+After enabling I2C, exit the configuration tool by selecting Finish, and reboot your Raspberry Pi to apply the changes:
 
+```bash
+sudo reboot 
+```
