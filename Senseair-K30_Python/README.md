@@ -42,8 +42,8 @@ If your K30 sensor uses TTL, connect it to a TTL-to-I2C converter and then to th
 ### 1. Enable I2C on Raspberry Pi
 Run the Raspberry Pi configuration tool:
 
-```bash
-sudo raspi-config```
+`bash
+sudo raspi-config`
 
 
 Navigate to:
