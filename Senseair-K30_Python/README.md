@@ -48,7 +48,7 @@ sudo raspi-config
 ```
 Navigate to:
 
-- Interfacing Options → I2C → Enable
+- Interfacing Options → I2C → Enable.  
 After enabling I2C, exit the configuration tool by selecting Finish, and reboot your Raspberry Pi to apply the changes:
 
 ```bash
