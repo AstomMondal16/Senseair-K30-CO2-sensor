@@ -44,4 +44,9 @@ Run the Raspberry Pi configuration tool:
 
 ```bash
 sudo raspi-config
-![Screenshot from 2025-01-01 23-20-52](https://github.com/user-attachments/assets/59e48fc5-67ec-4e06-b367-63d8277b21e9)
+
+Navigate to:
+
+Interfacing Options → I2C → Enable
+Reboot your Raspberry Pi to apply the changes.
+
